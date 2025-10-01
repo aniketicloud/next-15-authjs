@@ -1,11 +1,9 @@
-import { ModeToggle } from "@/components/ModeToggle";
-import ThemeSwitcherButton from "@/components/ui/shadcn-io/theme-switcher/ThemeSwitcherButton";
+import { ThemeSwitcher } from "@/components/ui/shadcn-io/theme-switcher";
 
 export default function Home() {
   return (
     <>
-      {/* <ModeToggle /> */}
-      <ThemeSwitcherButton />
+      <ThemeSwitcher />
       <h1>Hello</h1>
     </>
   );
